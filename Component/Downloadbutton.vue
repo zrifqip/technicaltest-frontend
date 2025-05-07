@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { fetchFile } from '@/composables/fetchFile'
+import { fhFile } from '@/composables/fetchFile'
 </script>
 
 <template>
