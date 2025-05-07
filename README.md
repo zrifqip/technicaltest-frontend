@@ -6,7 +6,6 @@ Salah satu fitur yang telah dibuat dalam front end dan sudah terintegrasi dengan
 token ini akan disimpan dalam local storage dikarenakan cookie yang terdapat backend ini sedikit bermasalah jadi bisa diimprove kedepannya menggunakan cookie sebagai penyimpanan token
 ## Daftar Pegawai
 Lalu setelah masuk kedalam aplikasi akan diberikan tampilan tabel untuk menampilkan semua data pegawai yang ada
-![image](https://github.com/user-attachments/assets/3541e618-fcfa-4205-b556-8b9db567d8de)
 Terdapat juga untuk paginasi pegawai mekipun berhasil dibuat dalam backend fitur ini tidak berhasil untuk diaplikasikan dalam front end.
 ## Cetak Data pegawai
 Untuk mencetak data pegawai ini dilakukan pembuatan file `.blade` yang kemudian dijadikan view untuk table dengan melakukan query dan didapatkan seperti berikut

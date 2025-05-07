@@ -14,12 +14,16 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/scripts',
     '@nuxt/test-utils',
-    '@nuxt/ui'
+    '@nuxt/ui',
+    '@vee-validate/nuxt'
   ],
   vite: {
     plugins: [
       tailwindcss(),
     ],
+    optimizeDeps: {
+      exclude: ['vee-validate']
+    }
   },
   router: {
     options: {
